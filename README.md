@@ -4,7 +4,7 @@ A utilização de padrões de commits, conforme preconizado pela especificação
 
 A adoção desse padrão permite que desenvolvedores e ferramentas de software compreendam rapidamente a natureza de cada alteração. Isso é feito através da inclusão de um tipo e, opcionalmente, um escopo no início da mensagem de commit. O tipo, como `feat`, `fix`, `docs`, `style`, entre outros, categoriza a alteração (ex.: nova funcionalidade, correção de bug, atualização de documentação, etc.). Essa abordagem estruturada simplifica a navegação no histórico do projeto, a geração de changelogs automáticos e a determinação de versões semânticas.
 
-# Tipo e descrição
+## Tipo e descrição
 
 O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
 
