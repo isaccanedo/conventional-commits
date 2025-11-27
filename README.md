@@ -34,7 +34,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 
-## 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
+# 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
 
 ### Passo 1: Certifique-se de que o Git está instalado 🌟
 
