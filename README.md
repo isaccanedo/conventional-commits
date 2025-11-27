@@ -36,7 +36,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 # 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
 
-### Passo 1: Certifique-se de que o Git está instalado 🌟
+### Passo 01: Certifique-se de que o Git está instalado 🌟
 
 Antes de tudo, verifique se o Git está instalado na sua máquina. Abra o terminal e execute:
 
@@ -46,7 +46,7 @@ git --version
 
 Se você receber uma versão do Git como resposta, está tudo certo! Caso contrário, baixe e instale o Git aqui: [Git Downloads](https://git-scm.com/downloads).
 
-### Passo 2: Localize o arquivo `commit-msg.sh` 📂
+### Passo 02: Localize o arquivo `commit-msg.sh` 📂
 
 O arquivo `commit-msg.sh` deve estar disponível no repositório do seu projeto ou em um diretório específico. Certifique-se de que ele está acessível. Se não estiver, faça o download ou clone o repositório onde ele está localizado.
 
@@ -57,7 +57,7 @@ git clone https://github.com/seu-repositorio/projeto.git
 cd projeto
 ```
 
-### Passo 3: Crie o diretório `.git/hooks` (se ainda não existir) 📁
+### Passo 03: Crie o diretório `.git/hooks` (se ainda não existir) 📁
 
 Os hooks do Git ficam no diretório `.git/hooks`. Verifique se ele existe no seu projeto:
 
@@ -71,7 +71,7 @@ Se o diretório não existir, crie-o:
 mkdir -p .git/hooks
 ```
 
-### Passo 4: Copie o arquivo `commit-msg.sh` para o diretório `.git/hooks` 📋
+### Passo 04: Copie o arquivo `commit-msg.sh` para o diretório `.git/hooks` 📋
 
 Copie o arquivo `commit-msg.sh` para o diretório `.git/hooks` e renomeie-o para `commit-msg` (sem extensão):
 
@@ -81,7 +81,7 @@ cp caminho/para/commit-msg.sh .git/hooks/commit-msg
 
 > **Nota:** Substitua `caminho/para/commit-msg.sh` pelo caminho real do arquivo.
 
-### Passo 5: Dê permissão de execução ao script ✅
+### Passo 05: Dê permissão de execução ao script ✅
 
 Para que o Git possa executar o script, você precisa dar permissão de execução:
 
@@ -89,7 +89,7 @@ Para que o Git possa executar o script, você precisa dar permissão de execuç�
 chmod +x .git/hooks/commit-msg
 ```
 
-### Passo 6: Teste o hook de commit 💻
+### Passo 06: Teste o hook de commit 💻
 
 Agora, tente fazer um commit no seu projeto. Por exemplo:
 
@@ -100,7 +100,7 @@ git commit -m "feat: adicionar funcionalidade xyz"
 
 Se a mensagem de commit seguir o padrão **Conventional Commits**, o commit será aceito. Caso contrário, o hook irá bloquear o commit e exibir uma mensagem de erro.
 
-### Passo 7: Personalize o script (opcional) 🎨
+### Passo 07: Personalize o script (opcional) 🎨
 
 Se necessário, abra o arquivo `.git/hooks/commit-msg` em um editor de texto e personalize as regras de validação para atender às necessidades do seu projeto.
 
