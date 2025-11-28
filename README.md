@@ -1,10 +1,10 @@
-## Conventional Commits 📜
+# Conventional Commits 📜
 
 A utilização de padrões de commits, conforme preconizado pela especificação **[Conventional Commits](https://www.conventionalcommits.org/pt-br)**, é uma prática recomendada para padronizar e enriquecer as mensagens de commit em repositórios de código. Essa convenção estabelece um conjunto de regras claras para a formatação das mensagens, resultando em um histórico de commits explícito e legível, o que, por sua vez, facilita a automação de processos.
 
 A adoção desse padrão permite que desenvolvedores e ferramentas de software compreendam rapidamente a natureza de cada alteração. Isso é feito através da inclusão de um tipo e, opcionalmente, um escopo no início da mensagem de commit. O tipo, como `feat`, `fix`, `docs`, `style`, entre outros, categoriza a alteração (ex.: nova funcionalidade, correção de bug, atualização de documentação, etc.). Essa abordagem estruturada simplifica a navegação no histórico do projeto, a geração de changelogs automáticos e a determinação de versões semânticas.
 
-## Tipo e descrição
+# Tipo e descrição
 
 O commit semântico possui os elementos estruturais abaixo (tipos), que informam a intenção do seu commit ao utilizador(a) de seu código.
 
@@ -34,7 +34,7 @@ O commit semântico possui os elementos estruturais abaixo (tipos), que informam
 
 - `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 
-# 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
+## 🛠️ Como instalar o arquivo `commit-msg.sh` para validar mensagens de commits com conventional commits
 
 ### Passo 01: Certifique-se de que o Git está instalado 🌟
 
