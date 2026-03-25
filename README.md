@@ -1,4 +1,4 @@
-## Conventional Commits 📜
+# Conventional Commits 📜
 
 A utilização de padrões de commits, conforme preconizado pela especificação **[Conventional Commits](https://www.conventionalcommits.org/pt-br)**, é uma prática recomendada para padronizar e enriquecer as mensagens de commit em repositórios de código. Essa convenção estabelece um conjunto de regras claras para a formatação das mensagens, resultando em um histórico de commits explícito e legível, o que, por sua vez, facilita a automação de processos.
 
